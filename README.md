@@ -19,6 +19,40 @@ Diagrama UML:
 
 imagem retirada do site:https://refactoring.guru/pt-br/design-patterns/factory-method
 
+Código exemplo e explicação(código retirado do: https://refactoring.guru/pt-br/design-patterns/factory-method/python/example):
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/67b7c024-d6bd-41ab-a3f5-aa7b82d6ebfc)
+
+A classe creator é uma classe abstrata que declara o método factory_method(), que deve retornar um objeto de uma classe Product.
+Possui um método some_operation() que demonstra como o criador pode usar o objeto Product criado pelo factory_method().
+Essa classe é independente das classes concretas de produtos, mantendo o código flexível e extensível.
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/3d186421-4a5a-4af1-9ae5-22a0a2c42ffc)
+
+ConcreteCreator1 e ConcreteCreator2:
+São subclasses concretas de Creator que implementam o factory_method() para retornar instâncias de produtos concretos (ConcreteProduct1 e ConcreteProduct2, respectivamente).
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/3c21eda2-f91e-47c4-8397-b24039060216)
+
+Product (Produto):
+É uma interface que declara o método operation(), que todos os produtos concretos devem implementar.
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/d6db09b3-eff2-42b4-b1ca-46af8b796644)
+
+ConcreteProduct1 e ConcreteProduct2:
+São implementações concretas da interface Product que fornecem diferentes implementações para o método operation().
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/4b66b2f1-65ff-42b8-bf72-b6f248c739ce)
+
+client_code():
+É uma função que recebe um objeto Creator e demonstra como o código cliente pode trabalhar com criadores e produtos sem conhecer suas classes concretas.
+if __name__ == "__main__"::
+É uma maneira de verificar se o script está sendo executado diretamente como um programa e não sendo importado como um módulo.
+Aqui, é usado para mostrar como o cliente pode trabalhar com diferentes criadores e produtos.
+
+
+
+
 # Estruturais
 Os padrões de projeto estruturais se preocupam com a composição de classes e objetos para formar estruturas maiores, facilitando a interação entre essas estruturas. Eles ajudam a garantir que as mudanças na estrutura não afetem as partes dependentes do sistema.
 
