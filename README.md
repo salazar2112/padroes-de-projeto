@@ -120,4 +120,21 @@ imagem retirada do site:https://refactoring.guru/pt-br/design-patterns/strategy
 
 Código exemplo e explicação(código retirado do: https://refactoring.guru/pt-br/design-patterns/adapter/python/example):
 
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/0be2032e-0760-4820-b5d1-35427e3afb63)
+
+Context (Contexto):
+Define a interface de interesse para os clientes, mantém uma referência a um objeto Strategy e delega parte do trabalho para esse objeto e pode alterar a estratégia em tempo de execução.
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/7e363888-f386-4370-841c-ea8fe9904664)
+
+Strategy (Estratégia):
+Define uma interface comum para todas as versões suportadas de algum algoritmo.
+Utilizada pelo Context para chamar o algoritmo definido pelas Concrete Strategies.
+
+ConcreteStrategyA e ConcreteStrategyB:
+Implementam o algoritmo seguindo a interface base Strategy.
+São intercambiáveis no Context.
+
+
+
 
