@@ -13,7 +13,10 @@ Solução:
 O padrão Factory Method resolve esse problema definindo uma interface para criar um objeto, mas permite que as subclasses decidam quais classes concretas serão instanciadas. Dessa forma, a lógica de criação é abstraída para as subclasses, fornecendo flexibilidade e desacoplamento do código.
 
 Diagrama UML:
+
 ![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/68879961-4e26-4ba1-b969-5652b6300ab8)
+
+imagem retirada do site:https://refactoring.guru/pt-br/design-patterns/factory-method
 
 Estruturais
 Os padrões de projeto estruturais se preocupam com a composição de classes e objetos para formar estruturas maiores, facilitando a interação entre essas estruturas. Eles ajudam a garantir que as mudanças na estrutura não afetem as partes dependentes do sistema.
