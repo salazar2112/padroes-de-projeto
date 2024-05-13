@@ -71,6 +71,34 @@ Diagrama UML:
 
 imagem retirada do site:https://refactoring.guru/pt-br/design-patterns/adapter
 
+Código exemplo e explicação(código retirado do: https://refactoring.guru/pt-br/design-patterns/adapter/python/example):
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/f4920e23-bb10-49ae-a339-a6d493cddd77)
+
+Target (Alvo):
+Define a interface específica do domínio usada pelo código cliente.
+Possui um método request() que define o comportamento padrão do alvo.
+
+Adaptee (Adaptado):
+Contém algum comportamento útil, mas sua interface é incompatível com o código cliente existente.
+Possui um método specific_request() que representa o comportamento específico do adaptado.
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/93af680e-0e7c-4d7b-91cf-95d24714f007)
+
+Adapter (Adaptador):
+Torna a interface do Adaptee compatível com a interface do Target através da herança múltipla.
+Implementa o método request() para traduzir e adaptar o comportamento do Adaptee para corresponder ao comportamento esperado pelo código cliente.
+
+client_code():
+Suporta todas as classes que seguem a interface Target.
+Demonstra como o código cliente pode trabalhar com objetos Target, mas também pode se adaptar para trabalhar com Adaptee usando Adapter.
+
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/fcf8ce90-e7f1-493f-a1a7-f319c789a772)
+
+if __name__ == "__main__"::
+Verifica se o script está sendo executado diretamente como um programa.
+No bloco, o cliente demonstra como ele pode trabalhar com objetos Target, Adaptee e Adapter.
+
 
 # Comportamentais
 Os padrões de projeto comportamentais se concentram nas interações entre objetos, definindo responsabilidades e comunicação entre eles. Eles ajudam a descrever como os objetos colaboram para cumprir tarefas complexas.
