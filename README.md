@@ -3,7 +3,8 @@
 # Criacionais
 Os padrões de projeto criacionais estão relacionados à criação de objetos de forma flexível e eficiente, sem vincular o código a classes específicas. Eles abstraem o processo de instanciação, tornando-o mais independente das classes concretas envolvidas.
 
-Factory Method (Método de Fábrica)
+Factory Method (Método de Fábrica):
+
 O padrão Factory Method define uma interface para criar um objeto, mas permite às subclasses alterar o tipo de objetos que serão criados. Isso significa que a instanciação é adiada para as subclasses, fornecendo um método para criar objetos em uma hierarquia de classes.
 
 Problema:
