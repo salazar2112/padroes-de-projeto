@@ -118,4 +118,6 @@ Diagrama UML:
 
 imagem retirada do site:https://refactoring.guru/pt-br/design-patterns/strategy
 
+Código exemplo e explicação(código retirado do: https://refactoring.guru/pt-br/design-patterns/adapter/python/example):
+
 
