@@ -133,6 +133,11 @@ Define uma interface comum para todas as versões suportadas de algum algoritmo 
 ConcreteStrategyA e ConcreteStrategyB:
 Implementam o algoritmo seguindo a interface base Strategy e são intercambiáveis no Context.
 
+![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/93d83459-39b0-42a0-b748-a50f2de9845b)
+
+if __name__ == "__main__":
+O código demonstra como usar o padrão Strategy. Ele instancia um objeto Context, define uma estratégia inicial, executa a lógica de negócios e, em seguida, altera a estratégia e executa a lógica de negócios novamente para demonstrar a flexibilidade de trocar estratégias em tempo de execução.
+
 
 
 
