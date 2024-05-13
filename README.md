@@ -1,5 +1,5 @@
 # Padrões de Projeto
-
+Neste projeto, exploramos os três principais tipos de padrões de projeto: Criacionais, Estruturais e Comportamentais. Os padrões de projeto são soluções típicas para problemas recorrentes em design de software e são amplamente utilizados para melhorar a qualidade, a reutilização e a manutenção do código.
 # Criacionais
 Os padrões de projeto criacionais estão relacionados à criação de objetos de forma flexível e eficiente, sem vincular o código a classes específicas. Eles abstraem o processo de instanciação, tornando-o mais independente das classes concretas envolvidas.
 
