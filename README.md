@@ -128,13 +128,14 @@ Define a interface de interesse para os clientes, mantém uma referência a um o
 ![image](https://github.com/salazar2112/padroes-de-projeto/assets/167459656/7e363888-f386-4370-841c-ea8fe9904664)
 
 Strategy (Estratégia):
-Define uma interface comum para todas as versões suportadas de algum algoritmo.
-Utilizada pelo Context para chamar o algoritmo definido pelas Concrete Strategies.
+Define uma interface comum para todas as versões suportadas de algum algoritmo e é utilizada pelo Context para chamar o algoritmo definido pelas Concrete Strategies.
 
 ConcreteStrategyA e ConcreteStrategyB:
-Implementam o algoritmo seguindo a interface base Strategy.
-São intercambiáveis no Context.
+Implementam o algoritmo seguindo a interface base Strategy e são intercambiáveis no Context.
 
 
 
 
+
+
+ 
